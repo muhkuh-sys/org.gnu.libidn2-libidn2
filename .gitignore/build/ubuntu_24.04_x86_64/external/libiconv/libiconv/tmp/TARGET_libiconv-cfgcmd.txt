@@ -1,0 +1,1 @@
+cmd='/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv/configure;--prefix=/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/install;--enable-static=yes;--enable-shared=no;--with-pic'

@@ -1,0 +1,13 @@
+# Target labels
+ TARGET_libiconv
+# Source files and their labels
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/CMakeFiles/TARGET_libiconv
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/CMakeFiles/TARGET_libiconv.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/CMakeFiles/TARGET_libiconv-complete.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-build.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-configure.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-download.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-install.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-mkdir.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-patch.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-stamp/TARGET_libiconv-update.rule

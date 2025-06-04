@@ -1,0 +1,13 @@
+# Target labels
+ TARGET_libidn2
+# Source files and their labels
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2-complete.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-build.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-configure.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-download.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-install.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-mkdir.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-patch.rule
+/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-update.rule

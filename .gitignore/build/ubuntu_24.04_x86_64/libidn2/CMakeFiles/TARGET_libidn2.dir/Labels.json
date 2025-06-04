@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/CMakeFiles/TARGET_libidn2-complete.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-build.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-configure.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-download.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-install.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-mkdir.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-patch.rule"
+		},
+		{
+			"file" : "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TARGET_libidn2"
+		],
+		"name" : "TARGET_libidn2"
+	}
+}
