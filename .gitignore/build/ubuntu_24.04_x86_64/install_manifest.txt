@@ -1,6 +1,0 @@
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/lib/libidn2.a
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/include/idn2.h
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/include/libcharset.h
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/include/iconv.h
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/include/localcharset.h
-/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/_CPack_Packages/Linux/TXZ/libidn2-2.3.4-ubuntu_24.04_x86_64/./install.lua

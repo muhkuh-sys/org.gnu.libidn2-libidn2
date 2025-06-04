@@ -1,6 +1,0 @@
-# This is a generated file and its contents are an internal implementation detail.
-# The update step will be re-executed if anything in this file changes.
-# No other meaning or use of this file is supported.
-
-command=/usr/bin/python3;/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/cmake/tools/apply_patches.py;--working-folder;/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2;--patch-folder;/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/libidn2/patches;--strip;1
-work_dir=/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2
