@@ -51,14 +51,14 @@ ADD_DEPENDENCIES(TARGET_libidn2 TARGET_libiconv)
 #SET(LIBIDN2_LIB_DIR      ${LIBIDN2_PREFIX}/lib              CACHE INTERNAL "The include folder for the libidn2 library.")
 
 # Create a package.
+SET(CPACK_OUTPUT_FILE_PREFIX ${CMAKE_BINARY_DIR}/../repository/org/gnu/libidn2/${VERSION_EXTERNAL})
+SET(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
+
 INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/libidn2.a
         TYPE LIB)
 INSTALL(DIRECTORY ${CMAKE_BINARY_DIR}/install/include/
         DESTINATION include)
 
-INSTALL(DIRECTORY ${SUB_INSTALL_DIR}/dev/cmake
-		DESTINATION dev 
-		FILES_MATCHING PATTERN "*.cmake")
 
 CONFIGURE_FILE(installer/install.lua 
 				${CMAKE_CURRENT_BINARY_DIR}/package/install.lua
