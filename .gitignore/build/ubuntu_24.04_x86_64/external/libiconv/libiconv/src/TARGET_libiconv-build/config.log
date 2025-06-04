@@ -800,7 +800,7 @@ configure:19373: $? = 0
 configure:19373: result: yes
 configure:19373: checking for _set_invalid_parameter_handler
 configure:19373: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccvX7SZs.o: in function `main':
+/usr/bin/ld: /tmp/ccdLZNOD.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-build/conftest.c:94:(.text.startup+0xb): undefined reference to `_set_invalid_parameter_handler'
 collect2: error: ld returned 1 exit status
 configure:19373: $? = 1
@@ -913,7 +913,7 @@ configure:19373: $? = 0
 configure:19373: result: yes
 configure:19373: checking for getprogname
 configure:19373: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccQCIZkr.o: in function `main':
+/usr/bin/ld: /tmp/ccaUBvue.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-build/conftest.c:96:(.text.startup+0xb): undefined reference to `getprogname'
 collect2: error: ld returned 1 exit status
 configure:19373: $? = 1
@@ -1020,7 +1020,7 @@ configure: failed program was:
 configure:19373: result: no
 configure:19373: checking for getexecname
 configure:19373: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cchiY5i4.o: in function `main':
+/usr/bin/ld: /tmp/ccimVNPW.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/external/libiconv/libiconv/src/TARGET_libiconv-build/conftest.c:96:(.text.startup+0xb): undefined reference to `getexecname'
 collect2: error: ld returned 1 exit status
 configure:19373: $? = 1
