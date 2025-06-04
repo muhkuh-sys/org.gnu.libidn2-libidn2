@@ -802,7 +802,7 @@ configure:16026: checking whether source code line length is unlimited
 configure:16051: result: yes
 configure:16162: checking for _set_invalid_parameter_handler
 configure:16162: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/cc233NNW.o: in function `main':
+/usr/bin/ld: /tmp/cc34qAVo.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:79:(.text.startup+0xb): undefined reference to `_set_invalid_parameter_handler'
 collect2: error: ld returned 1 exit status
 configure:16162: $? = 1
@@ -908,7 +908,7 @@ configure:16162: $? = 0
 configure:16162: result: yes
 configure:16162: checking for getprogname
 configure:16162: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccaaZnpL.o: in function `main':
+/usr/bin/ld: /tmp/cc4qlxca.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:83:(.text.startup+0xb): undefined reference to `getprogname'
 collect2: error: ld returned 1 exit status
 configure:16162: $? = 1
@@ -1002,7 +1002,7 @@ configure: failed program was:
 configure:16162: result: no
 configure:16162: checking for getexecname
 configure:16162: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccvQ0548.o: in function `main':
+/usr/bin/ld: /tmp/ccP0ADMg.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:83:(.text.startup+0xb): undefined reference to `getexecname'
 collect2: error: ld returned 1 exit status
 configure:16162: $? = 1
@@ -3549,7 +3549,7 @@ configure:26749: checking for the common suffixes of directories in the library 
 configure:26818: result: lib,lib,lib64
 configure:27362: checking for iconv
 configure:27387: gcc -o conftest -g -O2 -I/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/install/include  conftest.c  >&5
-/usr/bin/ld: /tmp/ccHjXlzP.o: in function `main':
+/usr/bin/ld: /tmp/cc1YTv96.o: in function `main':
 /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:139:(.text.startup+0x10): undefined reference to `libiconv_open'
 /usr/bin/ld: /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:140:(.text.startup+0x24): undefined reference to `libiconv'
 /usr/bin/ld: /home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/ubuntu_24.04_x86_64/libidn2/libidn2/src/TARGET_libidn2-build/conftest.c:141:(.text.startup+0x2c): undefined reference to `libiconv_close'

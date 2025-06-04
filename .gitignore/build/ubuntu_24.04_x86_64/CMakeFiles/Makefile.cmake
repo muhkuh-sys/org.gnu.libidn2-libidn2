@@ -166,7 +166,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "libidn2/libidn2/src/TARGET_libidn2-stamp/TARGET_libidn2-patch-info.txt"
   "libidn2/libidn2/tmp/TARGET_libidn2-cfgcmd.txt"
   "libidn2/package/install.lua"
-  "/libidn2-2.3.4-ubuntu_24.04_x86_64.xml"
+  "/home/dungtran/Dokumente/work/org.gnu.libidn2-libidn2/build/repository/org/gnu/libidn2/2.3.4/libidn2-2.3.4-ubuntu_24.04_x86_64.xml"
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "libidn2/CMakeFiles/CMakeDirectoryInformation.cmake"
