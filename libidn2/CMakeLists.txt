@@ -45,10 +45,6 @@ ExternalProject_Add(TARGET_libidn2
 # libidn2 depends on libiconv.
 ADD_DEPENDENCIES(TARGET_libidn2 TARGET_libiconv)
 
-#SET(LIBIDN2_PREFIX       ${CMAKE_BINARY_DIR}/install        CACHE INTERNAL "The complete path to the libidn2 installation.")
-#SET(LIBIDN2_LIBRARY      idn2                               CACHE INTERNAL "The complete path to the libidn2 library.")
-#SET(LIBIDN2_INCLUDE_DIR  ${LIBIDN2_PREFIX}/include          CACHE INTERNAL "The include folder for the libidn2 library.")
-#SET(LIBIDN2_LIB_DIR      ${LIBIDN2_PREFIX}/lib              CACHE INTERNAL "The include folder for the libidn2 library.")
 
 # Create a package.
 SET(CPACK_OUTPUT_FILE_PREFIX ${CMAKE_BINARY_DIR}/../repository/org/gnu/libidn2/${VERSION_EXTERNAL})
