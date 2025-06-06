@@ -4,7 +4,7 @@ PROJECT("libidn2")
 
 INCLUDE(ExternalProject)
 
-SET(VERSION_EXTERNAL "2.3.4")
+SET(VERSION_EXTERNAL "2.3.8")
 
 
 FIND_PACKAGE(Python3 REQUIRED COMPONENTS Interpreter)
@@ -34,9 +34,9 @@ ENDIF(${CMAKE_CROSSCOMPILING})
 
 ExternalProject_Add(TARGET_libidn2
                     PREFIX ${CMAKE_CURRENT_BINARY_DIR}/libidn2
-                    URL ${CMAKE_CURRENT_SOURCE_DIR}/libidn2-2.3.4.tar.gz
-                    URL_HASH SHA1=096e2f170fabdfd7011a1848a43e0fca49e3f2e5
-                    PATCH_COMMAND "${PYTHON_EXECUTABLE}" ${CMAKE_HOME_DIRECTORY}/cmake/tools/apply_patches.py --working-folder ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2 --patch-folder ${CMAKE_CURRENT_SOURCE_DIR}/patches --strip 1
+                    URL ${CMAKE_CURRENT_SOURCE_DIR}/libidn2-${VERSION_EXTERNAL}.tar.gz
+                    URL_HASH SHA1=06fe2744b016dfc4a58acc3699644e290eb3d37a
+#                    PATCH_COMMAND "${PYTHON_EXECUTABLE}" ${CMAKE_HOME_DIRECTORY}/cmake/tools/apply_patches.py --working-folder ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2 --patch-folder ${CMAKE_CURRENT_SOURCE_DIR}/patches --strip 1
                     CONFIGURE_COMMAND ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2/configure --prefix=${CMAKE_BINARY_DIR}/install --enable-static=yes --enable-shared=no --with-pic --with-included-libunistring --with-libiconv-prefix=${LIBICONV_PREFIX} ${CONFIGURE_HOST}
                     BUILD_COMMAND make
                     INSTALL_COMMAND make install
