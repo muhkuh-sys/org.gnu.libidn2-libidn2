@@ -15,29 +15,12 @@ SET(PYTHON_EXECUTABLE "${Python3_EXECUTABLE}")
 # Build the project.
 #
 
-IF(${CMAKE_CROSSCOMPILING})
-	IF("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-		# Get the prefix of the compiler.
-		GET_FILENAME_COMPONENT(GCC_BASENAME ${CMAKE_C_COMPILER} NAME)
-		IF(${GCC_BASENAME} MATCHES "([^-]+-[^-]+-[^-]+)-gcc")
-			SET(CONFIGURE_HOST "--host=${CMAKE_MATCH_1}")
-		ELSE(${GCC_BASENAME} MATCHES "([^-]+-[^-]+-[^-]+)-gcc")
-			MESSAGE(FATAL_ERROR "Failed to extract the compiler prefix from the C compiler ${CMAKE_C_COMPILER}")
-		ENDIF(${GCC_BASENAME} MATCHES "([^-]+-[^-]+-[^-]+)-gcc")
-	ELSE("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-		MESSAGE(FATAL_ERROR "Cross compiling detected, but not using GCC. This is currently not supported by the CMake wrapper for OpenSSL.")
-	ENDIF("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
-ELSE(${CMAKE_CROSSCOMPILING})
-	SET(CONFIGURE_HOST "")
-ENDIF(${CMAKE_CROSSCOMPILING})
-
-
 ExternalProject_Add(TARGET_libidn2
                     PREFIX ${CMAKE_CURRENT_BINARY_DIR}/libidn2
                     URL ${CMAKE_CURRENT_SOURCE_DIR}/libidn2-${VERSION_EXTERNAL}.tar.gz
                     URL_HASH SHA1=06fe2744b016dfc4a58acc3699644e290eb3d37a
 #                    PATCH_COMMAND "${PYTHON_EXECUTABLE}" ${CMAKE_HOME_DIRECTORY}/cmake/tools/apply_patches.py --working-folder ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2 --patch-folder ${CMAKE_CURRENT_SOURCE_DIR}/patches --strip 1
-                    CONFIGURE_COMMAND ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2/configure --prefix=${CMAKE_BINARY_DIR}/install --enable-static=yes --enable-shared=no --with-pic --with-included-libunistring --with-libiconv-prefix=${LIBICONV_PREFIX} ${CONFIGURE_HOST}
+                    CONFIGURE_COMMAND ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2/configure --prefix=${CMAKE_BINARY_DIR}/install --enable-static=yes --enable-shared=no --with-pic --with-included-libunistring --with-libiconv-prefix=${LIBICONV_PREFIX}
                     BUILD_COMMAND make
                     INSTALL_COMMAND make install
 )
