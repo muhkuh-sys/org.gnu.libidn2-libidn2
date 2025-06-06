@@ -61,15 +61,15 @@ INSTALL(DIRECTORY ${CMAKE_BINARY_DIR}/install/include/
 
 
 CONFIGURE_FILE(installer/install.lua 
-				${CMAKE_CURRENT_BINARY_DIR}/package/install.lua
-				@ONLY)
+               ${CMAKE_CURRENT_BINARY_DIR}/package/install.lua
+               @ONLY)
 
 INSTALL (FILES ${CMAKE_CURRENT_BINARY_DIR}/package/install.lua
-		DESTINATION .)
+         DESTINATION .)
 
 CONFIGURE_FILE(installer/libidn2.xml
-				${CPACK_OUTPUT_FILE_PREFIX}/libidn2-${VERSION_EXTERNAL}-${JONCHKI_PLATFORM}.xml
-				@ONLY)
+               ${CPACK_OUTPUT_FILE_PREFIX}/libidn2-${VERSION_EXTERNAL}-${JONCHKI_PLATFORM}.xml
+               @ONLY)
 
 SET(CPACK_PACKAGE_FILE_NAME "libidn2-${VERSION_EXTERNAL}-${JONCHKI_PLATFORM}")
 
