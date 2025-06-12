@@ -40,6 +40,13 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/libidn2.a ${CMAKE_BINARY_DIR}/inst
 INSTALL(DIRECTORY ${CMAKE_BINARY_DIR}/install/include/
         DESTINATION include)
 
+FILE(READ ${CMAKE_BINARY_DIR}/install/lib/pkgconfig/libidn2.pc FILE_CONTENTS)
+STRING(REGEX REPLACE "prefix=[^\r\n]+" "prefix=\$\{pcfiledir\}/.." FILE_CONTENTS "${FILE_CONTENTS}")
+FILE(WRITE ${CMAKE_BINARY_DIR}/install/lib/pkgconfig_patched/libidn2.pc "${FILE_CONTENTS}")
+
+INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/pkgconfig_patched/libidn2.pc
+        DESTINATION pkgconfig)
+
 
 CONFIGURE_FILE(installer/install.lua 
                ${CMAKE_CURRENT_BINARY_DIR}/package/install.lua
