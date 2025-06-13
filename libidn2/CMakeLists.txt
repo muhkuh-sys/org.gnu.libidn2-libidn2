@@ -25,6 +25,8 @@ ExternalProject_Add(TARGET_libidn2
                     CONFIGURE_COMMAND ${CMAKE_CURRENT_BINARY_DIR}/libidn2/src/TARGET_libidn2/configure --prefix=${CMAKE_BINARY_DIR}/install --enable-static=yes --enable-shared=no --with-pic --with-included-libunistring --with-libiconv-prefix=${LIBICONV_PREFIX}
                     BUILD_COMMAND make
                     INSTALL_COMMAND make install
+                    TEST_COMMAND ${CMAKE_SOURCE_DIR}/cmake/tools/fix_pkgconfig.sh ${CMAKE_BINARY_DIR}/install
+                    TEST_AFTER_INSTALL 1
 )
 
 # libidn2 depends on libiconv.
@@ -40,11 +42,7 @@ INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/libidn2.a ${CMAKE_BINARY_DIR}/inst
 INSTALL(DIRECTORY ${CMAKE_BINARY_DIR}/install/include/
         DESTINATION include)
 
-FILE(READ ${CMAKE_BINARY_DIR}/install/lib/pkgconfig/libidn2.pc FILE_CONTENTS)
-STRING(REGEX REPLACE "prefix=[^\r\n]+" "prefix=\$\{pcfiledir\}/.." FILE_CONTENTS "${FILE_CONTENTS}")
-FILE(WRITE ${CMAKE_BINARY_DIR}/install/lib/pkgconfig_patched/libidn2.pc "${FILE_CONTENTS}")
-
-INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/pkgconfig_patched/libidn2.pc
+INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/pkgconfig/libidn2.pc
         DESTINATION pkgconfig)
 
 
