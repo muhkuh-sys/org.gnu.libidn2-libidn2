@@ -34,7 +34,7 @@ ADD_DEPENDENCIES(TARGET_libidn2 TARGET_libiconv)
 
 
 # Create a package.
-SET(CPACK_OUTPUT_FILE_PREFIX ${CMAKE_BINARY_DIR}/../repository/org/gnu/libidn2/${PROJECT_VERSION})
+SET(CPACK_OUTPUT_FILE_PREFIX ${CMAKE_BINARY_DIR}/../repository/org/gnu/libidn2/libidn2/${PROJECT_VERSION})
 SET(CPACK_INCLUDE_TOPLEVEL_DIRECTORY FALSE)
 
 INSTALL(FILES ${CMAKE_BINARY_DIR}/install/lib/libidn2.a ${CMAKE_BINARY_DIR}/install/lib/libiconv.a

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jonchki-artifact version="1.0">
-	<info group="org.gnu"
+	<info group="org.gnu.libidn2"
 	      module="libidn2"
 	      artifact="libidn2"
 	      version="@PROJECT_VERSION@"
